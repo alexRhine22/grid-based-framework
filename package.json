@@ -1,0 +1,23 @@
+{
+  "name": "grid-based-framework",
+  "version": "1.0.0",
+  "description": "grid based framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexRhine22/grid-based-framework.git"
+  },
+  "author": "Alex Rhine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexRhine22/grid-based-framework/issues"
+  },
+  "homepage": "https://github.com/alexRhine22/grid-based-framework#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

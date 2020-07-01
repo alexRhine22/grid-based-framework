@@ -1,0 +1,21 @@
+.text {
+  &-center {
+    text-align: center;
+  }
+  &-left {
+    text-align: left;
+  }
+  &-right {
+    text-align: right;
+  }
+
+  &-capitalize {
+    text-transform: capitalize;
+  } 
+  &-lowercase {
+    text-transform: lowercase;
+  }
+  &-uppercase {
+    text-transform: uppercase;
+  } 
+}

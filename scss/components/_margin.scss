@@ -1,0 +1,173 @@
+$zero: 0;
+$xs: 0.25rem;
+$sm: 0.5rem;
+$md: 1rem;
+$lg: 1.5rem;
+$xl: 3rem;
+
+
+
+.m {
+  &-0 {
+    margin: $zero;
+  }
+  &-1 {
+    margin: $xs;
+  }
+  &-2 {
+    margin: $sm;
+  }
+  &-3 {
+    margin: $md;
+  }
+  &-4 {
+    margin: $lg;
+  }
+  &-5 {
+    margin: $xl;
+  }
+
+  // top margin
+  &t {
+    &-0 {
+      margin-top: $zero;
+    }
+    &-1 {
+      margin-top: $xs;
+    }
+    &-2 {
+      margin-top: $sm;
+    }
+    &-3 {
+      margin-top: $md;
+    }
+    &-4 {
+      margin-top: $lg;
+    }
+    &-5 {
+      margin-top: $xl;
+    }
+  }
+  
+  // bottom margin
+  &b {
+    &-0 {
+      margin-bottom: $zero;
+    }
+    &-1 {
+      margin-bottom: $xs;
+    }
+    &-2 {
+      margin-bottom: $sm;
+    }
+    &-3 {
+      margin-bottom: $md;
+    }
+    &-4 {
+      margin-bottom: $lg;
+    }
+    &-5 {
+      margin-bottom: $xl;
+    }
+  }
+
+  // left margin
+  &l {
+    &-0 {
+      margin-left: $zero;
+    }
+    &-1 {
+      margin-left: $xs;
+    }
+    &-2 {
+      margin-left: $sm;
+    }
+    &-3 {
+      margin-left: $md;
+    }
+    &-4 {
+      margin-left: $lg;
+    }
+    &-5 {
+      margin-left: $xl;
+    }
+  }
+
+  // right margin
+  &r {
+    &-0 {
+      margin-right: $zero;
+    }
+    &-1 {
+      margin-right: $xs;
+    }
+    &-2 {
+      margin-right: $sm;
+    }
+    &-3 {
+      margin-right: $md;
+    }
+    &-4 {
+      margin-right: $lg;
+    }
+    &-5 {
+      margin-right: $xl;
+    }
+  }
+
+  // top and bottom margin
+  &y {
+    &-0 {
+      margin-bottom: $zero;
+      margin-top: $zero;
+    }
+    &-1 {
+      margin-bottom: $xs;
+      margin-top: $xs;
+    }
+    &-2 {
+      margin-bottom: $sm;
+      margin-top: $sm;
+    }
+    &-3 {
+      margin-bottom: $md;
+      margin-top: $md;
+    }
+    &-4 {
+      margin-bottom: $lg;
+      margin-top: $lg;
+    }
+    &-5 {
+      margin-bottom: $xl;
+      margin-top: $xl;
+    }
+  }
+
+  // left and right margin
+  &x {
+    &-0 {
+      margin-left: $zero;
+      margin-right: $zero;
+    }
+    &-1 {
+      margin-left: $xs;
+      margin-right: $xs;
+    }
+    &-2 {
+      margin-left: $sm;
+      margin-right: $sm;
+    }
+    &-3 {
+      margin-left: $md;
+      margin-right: $md;
+    }
+    &-4 {
+      margin-left: $lg;
+      margin-right: $lg;
+    }
+    &-5 {
+      margin-left: $xl;
+      margin-right: $xl;
+    }
+  }
+}
