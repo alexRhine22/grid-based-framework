@@ -21,6 +21,9 @@ body {
 .text-uppercase {
   text-transform: uppercase; }
 
+.text-bold {
+  font-weight: bold; }
+
 .text-black {
   color: #000; }
 
@@ -430,6 +433,20 @@ body {
   .section-margin--xl {
     margin-bottom: 3rem;
     margin-top: 3rem; }
+
+.list--flex {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none; }
+  .list--flex li {
+    padding-right: 10px; }
+    .list--flex li:last-of-type {
+      padding-right: 0; }
+
+.list--no-indent {
+  padding: 0 0 0 15px;
+  margin: 0; }
 
 .col-1 {
   flex: 0 0 calc(100% * 1 / 12); }

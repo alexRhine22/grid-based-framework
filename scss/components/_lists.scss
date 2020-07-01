@@ -1,0 +1,21 @@
+.list {
+  &--flex {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+    li {
+      padding-right: 10px;
+
+      &:last-of-type {
+        padding-right: 0;
+      }
+    }
+  }
+
+  &--no-indent {
+    padding: 0 0 0 15px;
+    margin: 0;
+  }
+}
