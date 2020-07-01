@@ -1,3 +1,15 @@
+// Padding sizes
+$zero: 0;
+$xs: 0.25rem;
+$sm: 0.5rem;
+$md: 1rem;
+$lg: 1.5rem;
+$xl: 3rem;
+
+// Colors
+$white: #fff;
+$black: #000;
+
 // Globals
 @import "components/globals";
 
@@ -9,3 +21,6 @@
 @import "components/margin";
 @import "components/display";
 @import "components/section";
+
+//FLEX
+@import "components/columns"

@@ -21,6 +21,12 @@ body {
 .text-uppercase {
   text-transform: uppercase; }
 
+.text-black {
+  color: #000; }
+
+.text-white {
+  color: #fff; }
+
 .text-style-dashed {
   text-decoration: dashed; }
 
@@ -50,9 +56,6 @@ body {
 
 .justify-around {
   justify-content: space-around; }
-
-.justify-baseline {
-  justify-content: baseline; }
 
 .justify-between {
   justify-content: space-between; }
@@ -427,3 +430,39 @@ body {
   .section-margin--xl {
     margin-bottom: 3rem;
     margin-top: 3rem; }
+
+.col-1 {
+  flex: 0 0 calc(100% * 1 / 12); }
+
+.col-2 {
+  flex: 0 0 calc(100% * 2 / 12); }
+
+.col-3 {
+  flex: 0 0 calc(100% * 3 / 12); }
+
+.col-4 {
+  flex: 0 0 calc(100% * 4 / 12); }
+
+.col-5 {
+  flex: 0 0 calc(100% * 5 / 12); }
+
+.col-6 {
+  flex: 0 0 calc(100% * 6 / 12); }
+
+.col-7 {
+  flex: 0 0 calc(100% * 7 / 12); }
+
+.col-8 {
+  flex: 0 0 calc(100% * 8 / 12); }
+
+.col-9 {
+  flex: 0 0 calc(100% * 9 / 12); }
+
+.col-10 {
+  flex: 0 0 calc(100% * 10 / 12); }
+
+.col-11 {
+  flex: 0 0 calc(100% * 11 / 12); }
+
+.col-12 {
+  flex: 0 0 calc(100% * 12 / 12); }
