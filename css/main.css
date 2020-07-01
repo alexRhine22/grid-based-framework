@@ -448,6 +448,9 @@ body {
   padding: 0 0 0 15px;
   margin: 0; }
 
+.list--no-dots {
+  list-style-type: none; }
+
 .col-1 {
   flex: 0 0 calc(100% * 1 / 12); }
 
