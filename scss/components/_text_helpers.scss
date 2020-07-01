@@ -11,11 +11,41 @@
 
   &-capitalize {
     text-transform: capitalize;
-  } 
+  }
   &-lowercase {
     text-transform: lowercase;
   }
   &-uppercase {
     text-transform: uppercase;
-  } 
+  }
+
+  &-style {
+    &-dashed {
+      text-decoration: dashed;
+    }
+    &-dotted {
+      text-decoration: dotted;
+    }
+    &-double {
+      text-decoration: double;
+    }
+    &-line-through {
+      text-decoration: line-through;
+    }
+    &-none {
+      text-decoration: none;
+    }
+    &-overline {
+      text-decoration: overline;
+    }
+    &-solid {
+      text-decoration: solid;
+    }
+    &-underline {
+      text-decoration: underline;
+    }
+    &-wavy {
+      text-decoration: wavy;
+    }
+  }
 }

@@ -21,6 +21,33 @@ body {
 .text-uppercase {
   text-transform: uppercase; }
 
+.text-style-dashed {
+  text-decoration: dashed; }
+
+.text-style-dotted {
+  text-decoration: dotted; }
+
+.text-style-double {
+  text-decoration: double; }
+
+.text-style-line-through {
+  text-decoration: line-through; }
+
+.text-style-none {
+  text-decoration: none; }
+
+.text-style-overline {
+  text-decoration: overline; }
+
+.text-style-solid {
+  text-decoration: solid; }
+
+.text-style-underline {
+  text-decoration: underline; }
+
+.text-style-wavy {
+  text-decoration: wavy; }
+
 .justify-around {
   justify-content: space-around; }
 
@@ -356,3 +383,47 @@ body {
 
 .d-inline {
   display: inline; }
+
+.section-padding {
+  padding-bottom: 1rem;
+  padding-top: 1rem; }
+  .section-padding--none {
+    padding-bottom: 0;
+    padding-top: 0; }
+  .section-padding--xs {
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem; }
+  .section-padding--sm {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem; }
+  .section-padding--md {
+    padding-bottom: 1rem;
+    padding-top: 1rem; }
+  .section-padding--lg {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem; }
+  .section-padding--xl {
+    padding-bottom: 3rem;
+    padding-top: 3rem; }
+
+.section-margin {
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+  .section-margin--none {
+    margin-bottom: 0;
+    margin-top: 0; }
+  .section-margin--xs {
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem; }
+  .section-margin--sm {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem; }
+  .section-margin--md {
+    margin-bottom: 1rem;
+    margin-top: 1rem; }
+  .section-margin--lg {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem; }
+  .section-margin--xl {
+    margin-bottom: 3rem;
+    margin-top: 3rem; }
